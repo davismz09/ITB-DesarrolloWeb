@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Mite Zambrano || Tarea Virtual 2 || DSE08
+    </title>
+</head>
+
+<body>
+
+    <h2>CÁLCULO DE SUELDOS</h2>
+    <h1>SUELDOS POR HORAS</h1>
+
+    <form id="formularioEmpleado">
+        <label for="nombre">Ingrese el nombre:</label>
+        <input type="text" id="nombre" required><br><br>
+
+        <label for="cargo">Ingrese el cargo:</label>
+        <input type="text" id="cargo" required><br><br>
+
+        <label for="horasTrabajadas">Ingrese las horas trabajadas:</label>
+        <input type="number" id="horasTrabajadas" required><br><br>
+
+        <label for="sueldoPorHora">Ingrese el Sueldo por Hora:</label>
+        <input type="number" id="sueldoPorHora" required><br><br>
+
+        <button type="button" onclick="calcularSalario()">Calcular</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <script>
+        function calcularSalario() {
+            // Obtener los valores del formulario
+            var nombre = document.getElementById("nombre").value;
+            var cargo = document.getElementById("cargo").value;
+            var sueldoPorHora = parseFloat(document.getElementById("sueldoPorHora").value);
+            var horasTrabajadas = parseFloat(document.getElementById("horasTrabajadas").value);
+
+            // Calcular salario bruto
+            var salarioBruto = sueldoPorHora * horasTrabajadas;
+
+            // Si el salario bruto es menor a $200, agregar $50 adicionales por transporte
+            if (salarioBruto < 200) {
+                salarioBruto += 50;
+            }
+
+            // Calcular salario neto restando impuestos (10%)
+            var impuestos = salarioBruto * 0.1;
+            var salarioNeto = salarioBruto - impuestos;
+
+            // Mostrar el resultado
+            var resultadoDiv = document.getElementById("resultado");
+            resultadoDiv.innerHTML = "<h3>El Salario Neto a Recibir para " + nombre + ":</h3>" +
+                "<p>Cargo: " + cargo + "</p>" +
+                "<p>Salario Neto: $" + salarioNeto.toFixed(2) + "</p>";
+        }
+    </script>
+
+</body>
+
+</html>

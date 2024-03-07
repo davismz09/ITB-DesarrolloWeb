@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.titulo {
+    color: rgb(253, 254, 10);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.titulo-segundo {
+    color: rgb(253, 254, 10);
+}
+
+.parrafo {
+    color: #ffffff;
+}
+
+.contenedor {
+    margin: 20px auto;
+    max-width: 1200px;
+    height: 100%;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-sabermas {
+    background-color: rgb(137, 2, 0);
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-sabermas:hover {
+    background-color: rgb(94, 3, 1);
+    cursor: pointer;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    height: 70px;
+    position: static;
+    top: 0;
+    background-color: rgb(23, 23, 23);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.menu .list-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    text-transform: uppercase;
+}
+
+.menu .item-menu {
+    list-style: none;
+}
+
+.item-menu a:hover {
+    color: #b4b4b4;
+}
+
+/* Hero */
+.hero {
+    width: 100%;
+    height: 500px;
+}
+
+.hero .contenedor {
+    background-image: url(./img/paisaje1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contenedor-botones__hero {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+/* Servicios*/
+.servicios-contenedor {
+    width: 100%;
+    height: 350px;
+}
+
+.servicios-contenedor .contenedor {
+    background: rgb(47, 79, 78);
+    background: linear-gradient(0deg, rgba(47, 79, 78, 1) 1%, rgba(122, 174, 185, 1) 93%);
+    padding: 10px 20px;
+}
+
+.contenedores-iconos {
+    height: 100%;
+    display: flex;
+    gap: 50px;
+}
+
+.contenedores-iconos .icono {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: rgb(23, 23, 23);
+    border-radius: 12px;
+    padding-top: 20px;
+}
+
+.contenedores-iconos .icono .contenedor-logo {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(132, 13, 6);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icono .contenedor-logo img {
+    width: 40px;
+}
+
+/* Productos */
+.productos-contenedor {
+    width: 100%;
+    height: 400px;
+}
+
+.productos-contenedor .contenedor {
+    background-image: url(./img/paisaje2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Nosotros */
+.nosotros-contenedor {
+    width: 100%;
+    height: 400px;
+}
+
+.nosotros-contenedor .contenedor {
+    background: rgb(47, 79, 78);
+    background: linear-gradient(0deg, rgba(47, 79, 78, 1) 1%, rgba(122, 174, 185, 1) 93%);
+    padding: 10px 20px;
+}
+
+/* Contacto*/
+.contacto-contenedor {
+    width: 100%;
+    height: 500px;
+}
+
+.contacto-contenedor .contenedor {
+    gap: 40px;
+    background: rgb(139, 0, 3);
+    background: linear-gradient(0deg, rgba(139, 0, 3, 1) 12%, rgba(205, 81, 111, 1) 79%);
+}
+
+.contacto-contenedor img {
+    width: 300px;
+}
+
+/* Footer*/
+.sitio-footer {
+    background-color: rgb(23, 23, 23);
+    margin-top: 20px;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-contenedor {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 .9rem;
+    font-size: 1rem;
+}
+
+.footer-redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-redes img {
+    width: 3.75rem;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
