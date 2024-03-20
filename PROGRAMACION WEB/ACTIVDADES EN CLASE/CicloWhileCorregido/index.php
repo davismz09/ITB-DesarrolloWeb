@@ -91,7 +91,6 @@
     <?php
     error_reporting(E_ALL);
     //Nota de David :v : PARA EVITAR ERRORES CON LAS VARIABLES, HAY QUE PRIMERO DEFINIRLAS E INICIALIZARLAS
-    //NO COMO HACE EL PROFESOR QUE LAS PONE DONDE LE DA LA GANA :v
 
     //isset es una función en PHP que se utiliza para determinar si una variable
     //está definida y no es nula. Devuelve true si la variable existe y tiene un
