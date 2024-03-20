@@ -6,6 +6,6 @@ function registra($cod, $cli, $dir, $tel, $fec)
 
     fwrite($archivo, $unCliente);
     fclose($archivo);
-    header('Location: index.php'); // Cambiado 'Index.php' a 'index.php'
+    header('Location: index.php');
 
 }
