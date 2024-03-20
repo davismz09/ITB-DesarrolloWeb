@@ -10,7 +10,6 @@ Este repositorio contiene proyectos realizados en el marco del curso de Programa
 
 ```
 .
-PROGRAMACION WEB
 │
 ├── ACTIVDADES EN CLASE
 │ ├── CicloWhileCorregido
