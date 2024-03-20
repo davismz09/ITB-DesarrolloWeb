@@ -10,25 +10,26 @@ Este repositorio contiene proyectos realizados en el marco del curso de Programa
 - **MITE ZAMBRANO JOSE DAVID - PAGINA WEB ESTATICA:** Proyecto de página web estática realizado por Mite Zambrano José David.
 
 
-    PROGRAMACION WEB
-    │
-    ├── ACTIVDADES EN CLASE
-    │   ├── CicloWhileCorregido
-    │   │   └── nbproject
-    │   │       └── private
-    │   ├── Obsequio
-    │   │   └── nbproject
-    │   │       └── private
-    │   ├── Pagina Web - Bifurcaciones
-    │   ├── registroClientes
-    │   └── verificarArchivo
-    │
-    ├── TAREA VIRTUAL 1
-    ├── TAREA VIRTUAL 2
-    ├── TAREA VIRTUAL 3
-    │   └── MITE ZAMBRANO JOSE DAVID - PAGINA WEB ESTATICA
-    │       └── img
-    └── TAREA VIRTUAL 4
+PROGRAMACION WEB
+│
+├── ACTIVDADES EN CLASE
+│   ├── CicloWhileCorregido
+│   │   └── nbproject
+│   │       └── private
+│   ├── Obsequio
+│   │   └── nbproject
+│   │       └── private
+│   ├── Pagina Web - Bifurcaciones
+│   ├── registroClientes
+│   └── verificarArchivo
+│
+├── TAREA VIRTUAL 1
+├── TAREA VIRTUAL 2
+├── TAREA VIRTUAL 3
+│   └── MITE ZAMBRANO JOSE DAVID - PAGINA WEB ESTATICA
+│       └── img
+└── TAREA VIRTUAL 4
+
 
 
 ## Autor
