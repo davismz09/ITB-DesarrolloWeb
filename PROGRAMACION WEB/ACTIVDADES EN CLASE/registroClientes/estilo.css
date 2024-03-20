@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: #333;
+    width: 100%;
+    height: max-content;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+
+.hero,
+.section--registro,
+.section--listado {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 10px;
+}
+
+table a {
+    display: inline-block;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+table a:hover {
+    text-decoration: underline;
+    color: #015bbb;
+    font-weight: bold;
+}
+
+table img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+form table td {
+    padding: 10px;
+}
+
+form table input[type="text"],
+form table input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form table input[type="submit"] {
+    width: max-content;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+form table input[type="submit"]:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

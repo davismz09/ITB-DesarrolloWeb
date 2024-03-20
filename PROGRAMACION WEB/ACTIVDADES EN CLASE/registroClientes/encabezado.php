@@ -1,0 +1,2 @@
+<h2 class="subtitulo--encabezado" id="centrado">CONTROL DE CLIENTES</h2>
+<img class="imagen--encabezado" src="https://simondecirene.cl/wp-content/uploads/2020/02/Negociacio%CC%81n_1920x700.png" height="120">
