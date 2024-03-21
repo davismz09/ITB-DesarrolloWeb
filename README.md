@@ -8,6 +8,7 @@ Este repositorio contiene proyectos realizados en el marco del curso de Programa
 - **TAREA VIRTUAL 1-5:** Contiene proyectos correspondientes a las tareas virtuales asignadas.
 
 ```
+Estructura de los directorios del proyecto:
 .
 │
 ├── ACTIVDADES EN CLASE
