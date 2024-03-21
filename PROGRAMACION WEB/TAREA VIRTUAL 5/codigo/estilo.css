@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header .imagen-header {
+    width: 70%;
+    height: 245px;
+    object-fit: cover;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.section {
+    background-color: #4b4b4b;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 60%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: grid;
+    grid-template-areas: "label input"
+        "label error";
+    grid-template-columns: .5fr 2fr;
+    align-items: center;
+    padding: 10px 0;
+    gap: 10px;
+}
+
+.error {
+    grid-area: error;
+    color: #ff6262;
+    font-size: 16px;
+}
+
+label {
+    grid-area: label;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    grid-area: input;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #555;
+}
+
+select {
+    appearance: none;
+    background-color: #fff;
+}
+
+input[type="submit"] {
+    width: max-content;
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 95%;
+    border-collapse: collapse;
+}
+
+table td,
+table th {
+    padding: 8px;
+}
+
+table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    text-align: left;
+}
