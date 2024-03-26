@@ -21,15 +21,17 @@ Estructura de los directorios del proyecto:
 │ ├── Pagina Web - Bifurcaciones
 │ ├── registroClientes
 │ └── verificarArchivo
-│
 ├── TAREA VIRTUAL 1
 ├── TAREA VIRTUAL 2
 ├── TAREA VIRTUAL 3
 │ └── MITE ZAMBRANO JOSE DAVID - PAGINA WEB ESTATICA
 │ └── img
 ├──  TAREA VIRTUAL 4
-└──  TAREA VIRTUAL 5
-  └── codigo
+├──  TAREA VIRTUAL 5
+│ └── codigo
+├──  TAREA VIRTUAL 6
+│ └── informacion-tarea
+│ └── tarea-mite-zambrano 
 
 ```
 
