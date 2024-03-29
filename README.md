@@ -32,6 +32,9 @@ Estructura de los directorios del proyecto:
 ├──  TAREA VIRTUAL 6
 │ └── informacion-tarea
 │ └── tarea-mite-zambrano 
+├──  TAREA VIRTUAL 7
+│ └── informacion-tarea
+│ └── tarea-mite-zambrano
 
 ```
 
