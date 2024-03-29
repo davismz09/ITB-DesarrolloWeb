@@ -1,0 +1,6 @@
+David,12
+Ana,15
+Carlos,18
+Derian Paredes,12
+Juan perez,20
+Jose David Mite,5
