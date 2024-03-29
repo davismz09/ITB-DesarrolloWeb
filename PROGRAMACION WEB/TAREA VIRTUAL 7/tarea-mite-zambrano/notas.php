@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nota = $_POST['nota'];
 
     if (!empty($nombre) && !empty($nota) && is_numeric($nota) && $nota >= 0 && $nota <= 20) {
-        // Almacenar en un archivo de texto (puedes cambiar la estructura según tus necesidades)
+        // Almacenar en un archivo de texto
         $linea = "$nombre,$nota" . PHP_EOL;
         file_put_contents("datos.txt", $linea, FILE_APPEND | LOCK_EX);
 
