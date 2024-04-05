@@ -19,7 +19,7 @@ Este proyecto es una aplicación web que permite a los usuarios calcular el plan
 
 ## Uso
 
-1. Accede al [sitio web de la Casa de Préstamos](https://casa-prestamo-dmz09.zeabur.app/).
+1. Accede al [sitio web de la Casa de Préstamos](https://casa-prestamo-dmz09.zeabur.app/){:target="_blank"}.
 2. Completa el formulario con el nombre del cliente, el monto del préstamo y selecciona el número de cuotas.
 3. Haz clic en el botón "Cotizar" para calcular el plan de pagos.
 4. Se mostrará una tabla con el detalle de cada cuota, incluyendo el número de cuota, la fecha de pago y el monto mensual.
