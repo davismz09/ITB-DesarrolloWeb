@@ -23,6 +23,12 @@ Este proyecto es una aplicación web que permite a los usuarios calcular el plan
 2. Completa el formulario con el nombre del cliente, el monto del préstamo y selecciona el número de cuotas.
 3. Haz clic en el botón "Cotizar" para calcular el plan de pagos.
 4. Se mostrará una tabla con el detalle de cada cuota, incluyendo el número de cuota, la fecha de pago y el monto mensual.
+Los porcentajes de intereses aplicados en este proyecto son los siguientes:
+
+- 3 cuotas: 5%
+- 6 cuotas: 7%
+- 9 cuotas: 10%
+- 12 cuotas: 20%
 
 ## Notas Adicionales
 
