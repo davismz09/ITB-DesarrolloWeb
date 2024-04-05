@@ -10,9 +10,7 @@ Este repositorio contiene proyectos realizados en el marco del curso de Programa
 - **EJERCICIOS:** Contiene proyectos correspondientes a ejercicios asignados como práctica del curso.
 
 ```
-Estructura de los directorios del proyecto:
 .
-│
 ├── programacion-web
 │   ├── activides-en-clase
 │   │   ├── bifurcaciones
@@ -33,26 +31,32 @@ Estructura de los directorios del proyecto:
 │   │       │   └── css
 │   │       └── soda
 │   │           └── css
-│   ├── tarea-virtual-1
-│   │   └── src
-│   ├── tarea-virtual-2
-│   │   └── src
-│   ├── tarea-virtual-3
-│   │   ├── informacion-tarea
-│   │   │   └── img
-│   │   └── src
-│   ├── tarea-virtual-4
-│   │   └── src
-│   ├── tarea-virtual-5
-│   │   └── src
-│   ├── tarea-virtual-6
-│   │   ├── informacion-tarea
-│   │   └── src
-│   │       └── js
-│   ├── tarea-virtual-7
-│   │   ├── informacion-tarea
-│   │   └── src
-│   └── README.md
+│   └── tareas
+│       ├── tarea-virtual-1
+│       │   ├── informacion-tarea
+│       │   └── src
+│       ├── tarea-virtual-2
+│       │   ├── informacion-tarea
+│       │   └── src
+│       ├── tarea-virtual-3
+│       │   ├── informacion-tarea
+│       │   └── src
+│       │   │   └── img
+│       ├── tarea-virtual-4
+│       │   ├── informacion-tarea
+│       │   └── src
+│       ├── tarea-virtual-5
+│       │   ├── informacion-tarea
+│       │   └── src
+│       ├── tarea-virtual-6
+│       │   ├── informacion-tarea
+│       │   └── src
+│       │       └── js
+│       └── tarea-virtual-7
+│           ├── informacion-tarea
+│           └── src
+└── README.md
+
 
 ```
 
