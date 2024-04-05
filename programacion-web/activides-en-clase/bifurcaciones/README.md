@@ -34,5 +34,4 @@ El código JavaScript se utiliza en los dos últimos formularios para realizar c
 - En el tercer formulario, se determina el número mayor entre dos números ingresados por el usuario.
 
 Este ejercicio proporciona una introducción práctica a los conceptos básicos de programación web utilizando PHP, HTML y JavaScript. Puedes ejecutar cada parte del código por separado para comprender mejor su funcionamiento y practicar tus habilidades en el desarrollo web.
-
 ---
