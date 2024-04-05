@@ -1,5 +1,3 @@
-Perfecto, aquí tienes el README.md para el código proporcionado:
-
 ---
 
 # Venta de Productos
