@@ -1,4 +1,3 @@
----
 # Gestión de Biblioteca
 
 Este proyecto consiste en un sistema de gestión de biblioteca desarrollado por David Mite Zambrano como parte de la Tarea Virtual 6 del curso DSE08. La aplicación permite llevar un registro de los libros disponibles en la biblioteca, así como realizar operaciones como agregar, editar y eliminar libros.
@@ -22,12 +21,14 @@ Este proyecto consiste en un sistema de gestión de biblioteca desarrollado por 
 - **Visualización de Libros**: Se muestra una tabla con el listado de todos los libros disponibles, con detalles como título, autor y cantidad disponible.
 
 ## Funcionalidades
+
 1. Agregar Libros: Los usuarios pueden agregar nuevos libros a la biblioteca ingresando el título, autor y cantidad disponibles.
 2. Editar Libros: Existe la opción de editar la información de libros existentes, como el título, autor y cantidad disponible.
 3. Eliminar Libros: Se pueden eliminar libros de la biblioteca si ya no están disponibles o si se ingresaron incorrectamente.
 4. Listado de Libros: Se muestra un listado completo de todos los libros en la biblioteca, incluyendo su título, autor y cantidad disponible.
 
 ##Uso
+
 1. Abre el archivo HTML en un navegador web.
 2. Para agregar un nuevo libro:
    - Completa los campos requeridos: título, autor y cantidad disponible.
@@ -41,6 +42,7 @@ Este proyecto consiste en un sistema de gestión de biblioteca desarrollado por 
 5. Los cambios se reflejarán automáticamente en la tabla de libros.
 
 ## Notas Adicionales
+
 - Este proyecto es parte de una tarea académica y está diseñado para demostrar la comprensión y aplicación de conceptos de PHP, HTML, CSS y MySQL.
 - Este proyecto utiliza PHP para el backend y HTML con Bootstrap para el frontend.
 - Las consultas SQL en los archivos PHP están preparadas para evitar inyecciones de SQL.
@@ -57,4 +59,3 @@ Este proyecto consiste en un sistema de gestión de biblioteca desarrollado por 
 1. Clona este repositorio en tu servidor web.
 2. Configura la conexión a la base de datos en el archivo `db-conexion.php`.
 3. Accede a la aplicación a través de tu navegador web.
----

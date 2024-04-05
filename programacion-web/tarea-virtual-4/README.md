@@ -1,5 +1,3 @@
----
-
 # Calculadora de Mensualidades Universitarias
 
 Este proyecto consiste en una calculadora de mensualidades universitarias desarrollada por David Mite Zambrano como parte de una tarea académica del curso DSE08. La calculadora permite a los usuarios ingresar el nombre del alumno, seleccionar la categoría de la universidad y proporcionar el promedio del alumno para calcular el monto mensual a pagar, así como cualquier descuento aplicable.
@@ -28,5 +26,3 @@ Este proyecto consiste en una calculadora de mensualidades universitarias desarr
 
 - Este proyecto es parte de una tarea académica y está diseñado para demostrar la comprensión y aplicación de conceptos de desarrollo web.
 - Se recomienda experimentar con diferentes valores de entrada para comprender cómo afectan los resultados del cálculo de mensualidades y descuentos.
-
----

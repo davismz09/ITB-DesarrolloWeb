@@ -1,5 +1,3 @@
----
-
 # Casa de Préstamos
 
 Este proyecto consiste en una calculadora de préstamos desarrollada por David Mite Zambrano como parte de la Tarea Virtual 5 del curso DSE-08. La calculadora permite a los usuarios ingresar el nombre del cliente, el monto del préstamo y seleccionar el número de cuotas, para luego calcular el monto mensual a pagar y mostrar una tabla con el detalle de los pagos.
@@ -32,5 +30,3 @@ Este proyecto consiste en una calculadora de préstamos desarrollada por David M
 
 - Este proyecto es parte de una tarea académica y está diseñado para demostrar la comprensión y aplicación de conceptos de PHP, HTML y CSS.
 - Se recomienda experimentar con diferentes valores de entrada para comprender cómo afectan el cálculo de los pagos mensuales.
-
----

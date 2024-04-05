@@ -1,5 +1,3 @@
----
-
 # Sitio Web Corporativo - Proyecto de Tarea Académica
 
 Este proyecto consiste en el desarrollo de un sitio web corporativo como parte de una tarea académica del curso DSE08, realizado por MITE ZAMBRANO. El objetivo de la tarea es aplicar los conocimientos adquiridos sobre HTML, CSS y diseño web para crear un sitio web funcional y estéticamente atractivo.
@@ -30,5 +28,3 @@ El sitio web se compone de varias secciones, incluyendo inicio, servicios, produ
 
 - Este proyecto es parte de una tarea académica y está destinado a demostrar la comprensión y aplicación de los conceptos aprendidos en el curso.
 - Se alienta a los estudiantes a experimentar con diferentes diseños y funcionalidades para mejorar sus habilidades en el desarrollo web.
-
----

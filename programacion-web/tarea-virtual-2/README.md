@@ -1,5 +1,3 @@
----
-
 # Calculadora de Sueldos por Horas
 
 Este proyecto consiste en una calculadora de sueldos por horas desarrollada por David Mite Zambrano como parte de la Tarea Virtual 2 del curso DSE08. La calculadora permite a los usuarios ingresar el nombre del empleado, su cargo, las horas trabajadas y el sueldo por hora, para luego calcular el salario neto a recibir, considerando impuestos y bonificaciones por transporte.
@@ -28,5 +26,3 @@ Este proyecto consiste en una calculadora de sueldos por horas desarrollada por 
 
 - Este proyecto es parte de una tarea académica y está diseñado para demostrar la comprensión y aplicación de conceptos de JavaScript y HTML.
 - Se recomienda experimentar con diferentes valores de entrada para comprender cómo afectan el cálculo del salario neto.
-
----

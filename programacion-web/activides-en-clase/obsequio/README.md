@@ -1,5 +1,3 @@
----
-
 # Obsequio a Clientes
 
 Este proyecto consiste en un formulario para calcular obsequios y descuentos para clientes basados en el monto total de la compra y el número de ticket ingresado. Fue implementado por David Mite Zambrano como parte de una actividad en clase y utiliza PHP para realizar los cálculos y mostrar los resultados dinámicamente en la página web.
@@ -25,5 +23,3 @@ El formulario presenta las siguientes características:
 - Se recomienda ingresar valores válidos en el formulario para obtener resultados precisos.
 - Los obsequios y descuentos están predefinidos en el código PHP y se calculan según el número de ticket ingresado.
 - El formulario utiliza validación de datos en el lado del servidor para garantizar que se ingresen valores adecuados antes de realizar cálculos.
-
----

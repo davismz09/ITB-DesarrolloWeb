@@ -1,5 +1,3 @@
----
-
 # Venta de Productos
 
 Este proyecto consiste en un formulario para la venta de productos electrónicos, implementado por David Mite Zambrano como parte de una actividad en clase. Permite al usuario seleccionar un producto, ingresar la cantidad deseada y elegir el número de cuotas para el pago, calculando automáticamente el subtotal y el monto mensual a pagar según las cuotas seleccionadas.

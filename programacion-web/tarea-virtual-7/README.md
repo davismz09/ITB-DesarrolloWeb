@@ -1,5 +1,3 @@
----
-
 # Sistema de Gestión de Notas de Estudiantes
 
 Este proyecto consiste en un sistema de gestión de notas de estudiantes desarrollado por David Mite Zambrano como parte de un ejercicio práctico. La aplicación permite a los usuarios ingresar el nombre del estudiante y su nota correspondiente, mostrando luego un resumen de las notas ingresadas y algunas estadísticas básicas.
@@ -25,5 +23,3 @@ Este proyecto consiste en un sistema de gestión de notas de estudiantes desarro
 - Las notas ingresadas deben estar en un rango de 0 a 20.
 - La aplicación utiliza un archivo de texto (`datos.txt`) para almacenar los datos de los estudiantes.
 - Se han implementado validaciones básicas para asegurar que se ingresen datos válidos antes de guardarlos en el archivo.
-
----

@@ -1,5 +1,3 @@
----
-
 # Formulario de Registro
 
 Este proyecto consiste en un formulario de registro simple desarrollado en HTML por David Mite. El formulario permite a los usuarios ingresar sus datos personales y enviarlos para su procesamiento.
@@ -23,5 +21,3 @@ Este proyecto consiste en un formulario de registro simple desarrollado en HTML 
 
 - Este formulario es una implementación básica y puede necesitar ajustes adicionales dependiendo de los requisitos específicos del proyecto.
 - La validación del formulario se realiza solo en el lado del cliente. Para una seguridad adicional, se recomienda realizar una validación adicional en el lado del servidor.
-
----
