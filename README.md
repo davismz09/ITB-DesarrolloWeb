@@ -1,6 +1,6 @@
-# Repositorio de Programación Web
+# Repositorio de asignaturas de la carrera de Desarrollo de Software 5to semestre
 
-Este repositorio contiene proyectos realizados en el marco del curso de Programación Web en mi instituto.
+Este repositorio contiene proyectos realizados en el marco de los cursos tomados en el Instituto Superior Universitario Bolivariano de la carrera de Desarrollo de Software.
 
 ## Descripción de Carpetas
 
