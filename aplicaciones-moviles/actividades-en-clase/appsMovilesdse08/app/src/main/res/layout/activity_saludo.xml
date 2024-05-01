@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgorundApp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".appSaludo.SaludoActivity">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/bp_icon"
+        app:shapeAppearanceOverlay="@style/CircularImageViewStyle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="@string/ingrese_su_nombre"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginVertical="20dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/bg_Text"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        tools:ignore="Autofill,LabelFor,TextFields" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button_bg"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="10dp"
+        android:text="@string/enviar"
+        android:textColor="@color/bg_Text"
+        android:textSize="40sp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

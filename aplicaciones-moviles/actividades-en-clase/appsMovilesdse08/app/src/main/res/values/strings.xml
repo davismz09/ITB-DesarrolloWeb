@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">appsMovilesdse08</string>
+    <string name="ingrese_nombre">Ingrese nombre</string>
+    <string name="enviar">Enviar</string>
+    <string name="ingrese_su_nombre">Ingrese su nombre</string>
+    <string name="calcular">Calcular</string>
+    <string name="todo">TODO</string>
+    <string name="male">Male</string>
+    <string name="hombre">Hombre</string>
+    <string name="female">Female</string>
+    <string name="mujer">Mujer</string>
+    <string name="menu_de_apps">Menu de apps</string>
+    <string name="app_imc">App IMC</string>
+    <string name="app_saludo">App Saludo</string>
+    <string name="altura">ALTURA</string>
+</resources>
