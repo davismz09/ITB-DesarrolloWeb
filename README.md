@@ -12,169 +12,111 @@ Este repositorio contiene proyectos realizados en el marco de los cursos tomados
 ```
 .
 ├── aplicaciones-moviles
-│   ├── actividades-en-clase
-│   │   └── appsMovilesdse08
-│   │       ├── app
-│   │       │   ├── build.gradle.kts
-│   │       │   ├── proguard-rules.pro
-│   │       │   └── src
-│   │       │       ├── androidTest
-│   │       │       │   └── java
-│   │       │       │       └── com
-│   │       │       │           └── example
-│   │       │       │               └── appsmovilesdse08
-│   │       │       │                   └── ExampleInstrumentedTest.kt
-│   │       │       ├── main
-│   │       │       │   ├── AndroidManifest.xml
-│   │       │       │   ├── java
-│   │       │       │   │   └── com
-│   │       │       │   │       └── example
-│   │       │       │   │           └── appsmovilesdse08
-│   │       │       │   │               ├── appSaludo
-│   │       │       │   │               │   ├── MensajeActivity.kt
-│   │       │       │   │               │   └── SaludoActivity.kt
-│   │       │       │   │               ├── imc
-│   │       │       │   │               │   ├── ImcActivity.kt
-│   │       │       │   │               │   └── ResultadoImcActivity.kt
-│   │       │       │   │               └── MenuActivity.kt
-│   │       │       │   └── res
-│   │       │       │       ├── drawable
-│   │       │       │       │   ├── bp_icon.jpg
-│   │       │       │       │   ├── circle_button_background.xml
-│   │       │       │       │   ├── female.xml
-│   │       │       │       │   ├── ic_launcher_background.xml
-│   │       │       │       │   ├── ic_plus.xml
-│   │       │       │       │   ├── ic_substract.xml
-│   │       │       │       │   ├── male.xml
-│   │       │       │       │   └── rounded_button_bg.xml
-│   │       │       │       ├── drawable-v24
-│   │       │       │       │   └── ic_launcher_foreground.xml
-│   │       │       │       ├── layout
-│   │       │       │       │   ├── activity_imc.xml
-│   │       │       │       │   ├── activity_mensaje.xml
-│   │       │       │       │   ├── activity_menu.xml
-│   │       │       │       │   ├── activity_resultado_imc.xml
-│   │       │       │       │   └── activity_saludo.xml
-│   │       │       │       ├── values
-│   │       │       │       │   ├── colors.xml
-│   │       │       │       │   ├── rounded_backgroun.xml
-│   │       │       │       │   ├── strings.xml
-│   │       │       │       │   └── themes.xml
-│   │       │       └── test
-│   │       │           └── java
-│   │       │               └── com
-│   │       │                   └── example
-│   │       │                       └── appsmovilesdse08
-│   │       │                           └── ExampleUnitTest.kt
-│   ├── aplicaciones-realizadas
-│   │   ├── appsMovilesdse08
-│   │   │   ├── app
-│   │   │   │   ├── build.gradle.kts
-│   │   │   │   ├── proguard-rules.pro
-│   │   │   │   └── src
-│   │   │   │       ├── androidTest
-│   │   │   │       │   └── java
-│   │   │   │       │       └── com
-│   │   │   │       │           └── example
-│   │   │   │       │               └── appsmovilesdse08
-│   │   │   │       │                   └── ExampleInstrumentedTest.kt
-│   │   │   │       ├── main
-│   │   │   │       │   ├── AndroidManifest.xml
-│   │   │   │       │   ├── java
-│   │   │   │       │   │   └── com
-│   │   │   │       │   │       └── example
-│   │   │   │       │   │           └── appsmovilesdse08
-│   │   │   │       │   │               ├── appSaludo
-│   │   │   │       │   │               │   ├── MensajeActivity.kt
-│   │   │   │       │   │               │   └── SaludoActivity.kt
-│   │   │   │       │   │               ├── imc
-│   │   │   │       │   │               │   ├── ImcActivity.kt
-│   │   │   │       │   │               │   └── ResultadoImcActivity.kt
-│   │   │   │       │   │               └── MenuActivity.kt
-│   │   │   │       │   └── res
-│   │   │   │       │       ├── drawable
-│   │   │   │       │       │   ├── bp_icon.jpg
-│   │   │   │       │       │   ├── circle_button_background.xml
-│   │   │   │       │       │   ├── female.xml
-│   │   │   │       │       │   ├── ic_launcher_background.xml
-│   │   │   │       │       │   ├── ic_plus.xml
-│   │   │   │       │       │   ├── ic_substract.xml
-│   │   │   │       │       │   ├── male.xml
-│   │   │   │       │       │   └── rounded_button_bg.xml
-│   │   │   │       │       ├── drawable-v24
-│   │   │   │       │       │   └── ic_launcher_foreground.xml
-│   │   │   │       │       ├── layout
-│   │   │   │       │       │   ├── activity_imc.xml
-│   │   │   │       │       │   ├── activity_mensaje.xml
-│   │   │   │       │       │   ├── activity_menu.xml
-│   │   │   │       │       │   ├── activity_resultado_imc.xml
-│   │   │   │       │       │   └── activity_saludo.xml
-│   │   │   │       │       ├── values
-│   │   │   │       │       │   ├── colors.xml
-│   │   │   │       │       │   ├── rounded_backgroun.xml
-│   │   │   │       │       │   ├── strings.xml
-│   │   │   │       │       │   └── themes.xml
-│   │   │   │       └── test
-│   │   │   │           └── java
-│   │   │   │               └── com
-│   │   │   │                   └── example
-│   │   │   │                       └── appsmovilesdse08
-│   │   │   │                           └── ExampleUnitTest.kt
-│   │   └── RickAndMortyApi
-│   │       ├── app
-│   │       │   ├── build.gradle.kts
-│   │       │   ├── proguard-rules.pro
-│   │       │   └── src
-│   │       │       ├── androidTest
-│   │       │       │   └── java
-│   │       │       │       └── com
-│   │       │       │           └── example
-│   │       │       │               └── rickandmortyapi
-│   │       │       │                   └── ExampleInstrumentedTest.kt
-│   │       │       ├── main
-│   │       │       │   ├── AndroidManifest.xml
-│   │       │       │   ├── java
-│   │       │       │   │   └── com
-│   │       │       │   │       └── example
-│   │       │       │   │           └── rickandmortyapi
-│   │       │       │   │               ├── api
-│   │       │       │   │               │   ├── ApiServices.kt
-│   │       │       │   │               │   ├── PersonajeResponse.kt
-│   │       │       │   │               │   └── PersonajesResponse.kt
-│   │       │       │   │               ├── MenuActivity.kt
-│   │       │       │   │               └── rickmorty
-│   │       │       │   │                   ├── PersonajeAdapter.kt
-│   │       │       │   │                   ├── PersonajeViewHolder.kt
-│   │       │       │   │                   └── RickAndMortyActivity.kt
-│   │       │       │   └── res
-│   │       │       │       ├── drawable
-│   │       │       │       │   └── ic_launcher_background.xml
-│   │       │       │       ├── drawable-v24
-│   │       │       │       │   └── ic_launcher_foreground.xml
-│   │       │       │       ├── layout
-│   │       │       │       │   ├── activity_menu.xml
-│   │       │       │       │   ├── activity_rick_and_morty.xml
-│   │       │       │       │   └── item_personaje.xml
-│   │       │       │       ├── values
-│   │       │       │       │   ├── arrays.xml
-│   │       │       │       │   ├── colors.xml
-│   │       │       │       │   ├── strings.xml
-│   │       │       │       │   └── themes.xml
-│   │       │       └── test
-│   │       │           └── java
-│   │       │               └── com
-│   │       │                   └── example
-│   │       │                       └── rickandmortyapi
-│   │       │                           └── ExampleUnitTest.kt
-│   └── tareas
-│       └── tarea-virtual-1
-│           ├── informacion-tarea
-│           │   └── tarea-virtual-1.pdf
+│   └── actividades-en-clase
+│       └── appsMovilesdse08
+│           └── app
+│               └── src
+│                   └── main
+│                       ├── java
+│                       │   └── com
+│                       │       └── example
+│                       │           └── appsmovilesdse08
+│                       │               ├── appSaludo
+│                       │               │   ├── MensajeActivity.kt
+│                       │               │   └── SaludoActivity.kt
+│                       │               ├── imc
+│                       │               │   ├── ImcActivity.kt
+│                       │               │   └── ResultadoImcActivity.kt
+│                       │               └── MenuActivity.kt
+│                       └── res
+│                           ├── drawable
+│                           │   ├── bp_icon.jpg
+│                           │   ├── circle_button_background.xml
+│                           │   ├── female.xml
+│                           │   ├── ic_launcher_background.xml
+│                           │   ├── ic_plus.xml
+│                           │   ├── ic_substract.xml
+│                           │   ├── male.xml
+│                           │   └── rounded_button_bg.xml
+│                           ├── layout
+│                           │   ├── activity_imc.xml
+│                           │   ├── activity_mensaje.xml
+│                           │   ├── activity_menu.xml
+│                           │   ├── activity_resultado_imc.xml
+│                           │   └── activity_saludo.xml
+│                           └── values
+│                               ├── colors.xml
+│                               ├── rounded_backgroun.xml
+│                               ├── strings.xml
+│                               └── themes.xml
+├── aplicaciones-realizadas
+│   ├── appsMovilesdse08
+│   │   └── app
+│   │       └── src
+│   │           └── main
+│   │               ├── AndroidManifest.xml
+│   │               ├── java
+│   │               │   └── com
+│   │               │       └── example
+│   │               │           └── appsmovilesdse08
+│   │               │               ├── appSaludo
+│   │               │               │   ├── MensajeActivity.kt
+│   │               │               │   └── SaludoActivity.kt
+│   │               │               ├── imc
+│   │               │               │   ├── ImcActivity.kt
+│   │               │               │   └── ResultadoImcActivity.kt
+│   │               │               └── MenuActivity.kt
+│   │               └── res
+│   │                   ├── drawable
+│   │                   │   ├── bp_icon.jpg
+│   │                   │   ├── circle_button_background.xml
+│   │                   │   ├── female.xml
+│   │                   │   ├── ic_launcher_background.xml
+│   │                   │   ├── ic_plus.xml
+│   │                   │   ├── ic_substract.xml
+│   │                   │   ├── male.xml
+│   │                   │   └── rounded_button_bg.xml
+│   │                   ├── layout
+│   │                   │   ├── activity_imc.xml
+│   │                   │   ├── activity_mensaje.xml
+│   │                   │   ├── activity_menu.xml
+│   │                   │   ├── activity_resultado_imc.xml
+│   │                   │   └── activity_saludo.xml
+│   │                   └── values
+│   │                       ├── colors.xml
+│   │                       ├── rounded_backgroun.xml
+│   │                       ├── strings.xml
+│   │                       └── themes.xml
+│   └── RickAndMortyApi
+│       └── app
 │           └── src
-│               ├── entradas.jar
-│               ├── entradas.kt
-│               ├── notificaciones.jar
-│               └── notificaciones.kt
+│               └── main
+│                   ├── AndroidManifest.xml
+│                   ├── java
+│                   │   └── com
+│                   │       └── example
+│                   │           └── rickandmortyapi
+│                   │               ├── api
+│                   │               │   ├── ApiServices.kt
+│                   │               │   ├── PersonajeResponse.kt
+│                   │               │   └── PersonajesResponse.kt
+│                   │               ├── MenuActivity.kt
+│                   │               └── rickmorty
+│                   │                   ├── PersonajeAdapter.kt
+│                   │                   ├── PersonajeViewHolder.kt
+│                   │                   └── RickAndMortyActivity.kt
+│                   └── res
+│                       ├── drawable
+│                       │   └── ic_launcher_background.xml
+│                       ├── layout
+│                       │   ├── activity_menu.xml
+│                       │   ├── activity_rick_and_morty.xml
+│                       │   └── item_personaje.xml
+│                       └── values
+│                           ├── arrays.xml
+│                           ├── colors.xml
+│                           ├── strings.xml
+│                           └── themes.xml
 ├── programacion-web
 │   ├── activides-en-clase
 │   │   ├── bifurcaciones
