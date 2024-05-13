@@ -62,6 +62,7 @@ class RickAndMortyActivity : AppCompatActivity(), OnQueryTextListener {
                         }
                         adapter.notifyDataSetChanged()
                     } else {
+                        listaPersonajes.clear()
                         showError("No existen personajes con ese filtro")
                     }
                     ocultarTeclado()
