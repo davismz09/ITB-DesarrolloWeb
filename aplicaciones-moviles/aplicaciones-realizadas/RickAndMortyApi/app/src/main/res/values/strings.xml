@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RickAndMortyApi</string>
+    <string name="mensaje_bienvenida">Bienvenido a la API de Rick and Morty</string>
+    <string name="mensaje_boton_principal">Ver personajes</string>
+</resources>
